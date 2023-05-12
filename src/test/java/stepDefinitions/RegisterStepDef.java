@@ -58,7 +58,7 @@ public class RegisterStepDef {
     @And("User input Password")
     public void userInputPassword() {
         WebElement inputPassword = driver.findElement(By.id("password"));
-        inputPassword.sendKeys("@Litapunya12");
+        inputPassword.sendKeys("@Pranalatest12");
     }
 
     @And("User input Company Name")
